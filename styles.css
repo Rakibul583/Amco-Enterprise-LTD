@@ -1,0 +1,232 @@
+/* Logo size and alignment */
+.logo {
+    width: 100px; 
+    height: auto;
+    margin-right: 20px; 
+    margin-left: -20px; 
+}
+
+/* Global styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+/* Header styling */
+header {
+    background: black;
+    width: 100%;
+    height: 110.62px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 20px;
+}
+
+/* Navigation bar */
+nav {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+/* Navbar link styles */
+nav a, .contact-btn {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 10px;
+    transition: 0.3s;
+}
+
+nav a:hover {
+    color: yellow;
+}
+
+.contact-btn {
+    border: 2px solid yellow;
+    padding: 10px 20px;
+    border-radius: 25px;
+}
+
+.contact-btn:hover {
+    background: yellow;
+    color: black;
+}
+
+/* Responsive Design */
+@media (max-width: 1200px) {
+    nav {
+        gap: 15px;
+    }
+}
+
+@media (max-width: 768px) {
+    header {
+        flex-direction: column;
+        height: auto;
+        padding: 15px 0;
+    }
+
+    nav {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 10px;
+    }
+}
+
+/* Language button */
+#second {
+    width: 24px;
+    height: 24px;
+    margin-top: 8px;
+}
+
+#En {
+    display: inline-block;
+    transform: translateY(-5px);
+}
+
+
+
+
+
+
+.section-1{
+    position: relative;
+    margin-left: 60px;
+    top: 70px;
+    width: 100%;
+    overflow: hidden;
+}
+
+/* Frame container to align items in a row */
+.frame-container {
+    display: flex;
+    gap: 10px; /* Space between frames */
+    align-items: center;
+}
+
+/* Small yellow frame with check mark */
+.small-frame {
+    width: 20px;  /* Adjust size */
+    height: 20px; /* Adjust size */
+    background-color: yellow; /* Background color */
+    border-radius: 50%; /* Makes it circular */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid black; /* Optional border */
+    position: relative;
+}
+
+/* Add check mark inside the frame */
+.small-frame::after {
+    content: "✔"; /* Check mark symbol */
+    color: black; /* Color of the check mark */
+    font-size: 12px; /* Adjust size */
+    font-weight: bold;
+    position: absolute;
+}
+
+.half-width1{
+    width: 40%;
+    float: left;
+    margin-left: 6%;
+    padding-left: 2%;
+    margin-bottom: 100px;
+    
+}
+
+.half-width1 img{
+    width: 70%;
+    margin-left: 160px;
+}
+
+.btn-1{
+    background-color: #FFC000;
+    width: 261px;
+    height: 70px;
+    border-radius: 40px;
+}
+
+
+
+
+
+.section-2{
+    margin-bottom: 100px;
+}
+.forth-width{
+    width: 12%;
+    float: left;
+    margin-left: 10%;
+    margin-right: 3%;
+    border: 1px solid;
+    border-radius: 20px;
+    text-align: center;
+    border-width: 1px;
+    margin-bottom: 100px;
+}
+.half-width2{
+    width: 40%;
+    float: left;
+    margin-left: 8%;
+    padding-left: 2%;
+}
+.half-widthright-2{
+    
+    width: 50%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 30px;
+}
+
+.picture-1{
+    margin: 0;
+    font-size: 14px;
+    color: gray;
+    margin-left: 120px;
+    display: block;
+    width: 100%;
+    margin-top: 10px;
+}
+
+
+
+/*section-3*/
+.left-right{
+   display: block;
+    width: 100%;
+    margin-left: 8%;
+    width: 40%;
+    float: left;
+    margin-left: 8%;
+    padding-left: 2%;
+    padding-left: 2%;
+}
+
+
+.com-4{
+    width: 18%;
+    float: left;
+    margin-left: 10%;
+    margin-right: 3%;
+    border: 1px solid;
+    border-radius: 20px;
+    text-align: center;
+    border-width: 1px;
+    margin-bottom: 100px;
+}
+
+
+
+
+
+
+
+
+
